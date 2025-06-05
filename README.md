@@ -32,7 +32,7 @@ cmd: python3 preprocessing.py
 ### 2. Train the Multi-Output Neural Network
 cmd : python3 final.py
 
-## 3. To vire front end run:
+### 3. To view front end run:
 python3 frontend.py
 
 ###💡 Key Features
@@ -49,7 +49,8 @@ Cross-entropy loss
 Backpropagation from scratch
 
 🪶 Lightweight: Runs on CPU in < 10MB RAM
-🧠 Concepts Used
+
+###🧠 Concepts Used
 Bag-of-Words text encoding
 
 Multi-output feedforward network
@@ -59,7 +60,8 @@ Manual forward & backward pass
 Accuracy tracking per output
 
 Simple validation/testing split
-🔬 Limitations
+
+###🔬 Limitations
 Bag-of-Words model ignores context and word order
 
 Small, synthetic dataset (expand to improve!)
