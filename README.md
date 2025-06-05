@@ -27,13 +27,15 @@ This project simulates how a real-world task manager might prioritize and organi
 
 ### 1. 📊 Preprocess Your Data
 Convert task descriptions into Bag-of-Words format:
+cmd: python3 preprocessing.py
 
-```bash
-python3 preprocessing.py
+### 2. Train the Multi-Output Neural Network
+cmd : python3 final.py
 
-Train the Multi-Output Neural Network
-python3 final.py
-💡 Key Features
+## 3. To vire front end run:
+python3 frontend.py
+
+###💡 Key Features
 🎯 Multi-task output: Category + Priority
 
 🧹 Custom Preprocessing: Basic NLP and BoW (no external libraries)
