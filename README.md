@@ -34,8 +34,8 @@ cmd : python3 final.py
 
 ### 3. To view front end run:
 python3 frontend.py
-
-###💡 Key Features
+ 
+### Key Features:
 🎯 Multi-task output: Category + Priority
 
 🧹 Custom Preprocessing: Basic NLP and BoW (no external libraries)
@@ -50,7 +50,7 @@ Backpropagation from scratch
 
 🪶 Lightweight: Runs on CPU in < 10MB RAM
 
-###🧠 Concepts Used
+### Concepts Used:
 Bag-of-Words text encoding
 
 Multi-output feedforward network
@@ -61,7 +61,7 @@ Accuracy tracking per output
 
 Simple validation/testing split
 
-###🔬 Limitations
+### Limitations
 Bag-of-Words model ignores context and word order
 
 Small, synthetic dataset (expand to improve!)
@@ -70,7 +70,7 @@ No stemming, lemmatization, or tokenization
 
 No saving/loading of trained model yet
 
-📌 Future Improvements
+### Future Approach:
 🔄 Add TF-IDF or word embeddings
 
 📈 Use real task datasets
